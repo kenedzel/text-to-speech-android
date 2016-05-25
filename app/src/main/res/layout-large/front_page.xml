@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frontpagelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lg">
+
+
+    <Button
+        android:layout_width="415dp"
+        android:layout_height="75dp"
+        android:textSize="40sp"
+        android:text="@string/sq"
+        android:id="@+id/bsq"
+        android:layout_marginTop="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_custom"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="415dp"
+        android:layout_height="75dp"
+        android:textSize="40sp"
+        android:text="@string/tq"
+        android:id="@+id/btq"
+        android:background="@drawable/button_custom"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/bsq"
+        android:layout_alignStart="@+id/bsq"
+        android:layout_marginTop="104dp" />
+
+    <Button
+        android:layout_width="415dp"
+        android:layout_height="75dp"
+        android:textSize="40sp"
+        android:text="@string/see"
+        android:id="@+id/bsee"
+        android:background="@drawable/button_custom"
+        android:textColor="#ffffff"
+
+        android:layout_below="@+id/btq"
+        android:layout_alignStart="@+id/btq"
+        android:layout_marginTop="106dp" />
+
+    <Button
+        android:layout_width="415dp"
+        android:layout_height="75dp"
+        android:textSize="40sp"
+        android:text="@string/ra"
+        android:id="@+id/brate"
+        android:background="@drawable/button_custom"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp" />
+
+</RelativeLayout>

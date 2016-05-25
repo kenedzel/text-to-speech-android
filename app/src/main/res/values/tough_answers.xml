@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_answers">
+    <item>This is one of the most popular Android Interview questions, asked in several interview ranging from 1 to 2 years of experience to 5 years. The answer is, It is a resizable bitmap resource that can be used for backgrounds or other images on the device. The NinePatch class permits drawing a bitmap in nine sections. The nine patch images has extension as.9.png. It allows extension in 9 ways e.g. 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.</item>
+    <item>ANR is short for Application Not Responding. Android systems show this dialog if the application is performing too much of task on the main thread and been unresponsive for a long period of time.</item>
+    <item>Share intent is an easy and convenient way of sharing content of your application with other apps.</item>
+    <item>Description of something that an Intent sender desires.</item>
+    <item>The APK file is compressed AndroidManifest.XML file with extension.apk, Which have application code (.dex files), resource files, and other files which are compressed into single .apk files.</item>
+    <item>Just like Java application run on Oracle HotSpot JVM or Azul JVM,  Android application runs on the Dalvik Virtual Machine.</item>
+    <item>Since Android code is written in Java, they are also compiled first and then executed, but the JVM for which the bytecodes are generated is different than standard JVM. The Dalvik JVM is used to run Android app. See the answer for more detailed discussion.</item>
+    </string-array>
+</resources>

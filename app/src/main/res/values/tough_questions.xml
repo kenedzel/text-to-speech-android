@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_questions">
+        <item>What is the difference between a regular .png and a nine-patch image?</item>
+        <item>What is an ANR notification in Android?</item>
+        <item>How to share content using Android Share Intent</item>
+        <item>What is an action in Android?</item>
+        <item>What is APK format?</item>
+        <item>What is Dalvik Virtual Machine?</item>
+        <item>How Android app runs inside Android mobile?</item>
+    </string-array>
+</resources>

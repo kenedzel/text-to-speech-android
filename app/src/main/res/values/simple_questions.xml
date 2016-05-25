@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_question">
+        <item>What is Android?</item>
+        <item>What is Google Android SDK?</item>
+        <item>There are four Java classes related to the use of sensors on the Android platform. List them and explain the purpose of each.
+</item>
+        <item>What is a ContentProvider and what is it typically used for?</item>
+        <item>The last callback in the lifecycle of an activity is onDestroy(). The system calls this method on your activity as the final signal that your activity instance is being completely removed from the system memory. Usually, the system will call onPause() and onStop() before calling onDestroy(). Describe a scenario, though, where onPause() and onStop() would not be invoked.</item>
+        <item>Describe three common use cases for using an Intent.</item>
+        <item>What is Linux Kernel?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_answers">
+        <item>an open-source operating system used for smartphones and tablet computers.</item>
+        <item>A software development kit (SDK or "devkit") is typically a set of software development tools that allows the creation of applications for a certain software package.</item>
+        <item>
+    Sensor: Provides methods to identify which capabilities are available for a specific sensor.
+    SensorManager: Provides methods for registering sensor event listeners and calibrating sensors.
+    SensorEvent: Provides raw sensor data, including information regarding accuracy.
+    SensorEventListener: Interface that defines callback methods that will receive sensor event notifications.
+</item>
+        <item>A ContentProvider manages access to a structured set of data. It encapsulates the data and provide mechanisms for defining data security. ContentProvider is the standard interface that connects data in one process with code running in another process.</item>
+        <item>onPause() and onStop() will not be invoked if finish() is called from within the onCreate() method. This might occur, for example, if you detect an error during onCreate() and call finish() as a result. In such a case, though, any cleanup you expected to be done in onPause() and onStop() will not be executed.
+
+Although onDestroy() is the last callback in the lifecycle of an activity, it is worth mentioning that this callback may not always be called and should not be relied upon to destroy resources. It is better have the resources created in onStart() and onResume(), and have them destroyed in onStop() and onPause, respectively.</item>
+        <item>
+    To start an activity: You can start a new instance of an Activity by passing an Intent to startActivity() method.
+    To start a service: You can start a service to perform a one-time operation (such as download a file) by passing an Intent to startService().
+    To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent to sendBroadcast(), sendOrderedBroadcast(), or sendStickyBroadcast().
+</item>
+        <item>At the bottom of the layers is Linux - Linux 3.6 with approximately 115 patches. This provides a level of abstraction between the device hardware and it contains all the essential hardware drivers like camera, keypad, display etc. Also, the kernel handles all the things that Linux is really good at such as networking and a vast array of device drivers, which take the pain out of interfacing to peripheral hardware.</item>
+    </string-array>
+</resources>
