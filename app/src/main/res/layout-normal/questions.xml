@@ -69,20 +69,20 @@
         android:background="@drawable/footerbackground">
 
         <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:id="@+id/bleft"
             android:background="@drawable/button_prev"/>
 
         <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:id="@+id/bshowanswer"
             android:background="@drawable/button_answer"/>
 
         <Button
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:id="@+id/bright"
             android:background="@drawable/button_next"/>
     </LinearLayout>

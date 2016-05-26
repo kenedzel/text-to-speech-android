@@ -5,7 +5,7 @@
     android:orientation="horizontal"
     android:id="@+id/front_page_title_bar"
     android:gravity="center"
-    android:background="@drawable/buttongray">
+    android:background="@drawable/footerbackground">
 
     <TextView
         android:layout_width="wrap_content"

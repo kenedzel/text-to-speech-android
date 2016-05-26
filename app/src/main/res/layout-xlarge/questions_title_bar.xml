@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="90dp"
     android:orientation="horizontal"
-    android:background="@drawable/buttongray"
+    android:background="@drawable/footerbackground"
     android:id="@+id/questions_title_bar"
     android:gravity="center">
 
